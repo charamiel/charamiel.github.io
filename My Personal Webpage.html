@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="My Personal Webpage on The Web">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Emiliano">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial;
+color: white;
+padding: 10px;
+background: #262629;
+}
+
+/* Header/Blog Title */
+.header {
+font-family: "Times New Roman", Times, serif;
+color: white;
+padding: 30px;
+text-align: center;
+background: #3b3c40;
+}
+
+.header h1 {
+font-size: 50px;
+color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #750202;
+}
+
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+float: left;
+width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+background-color: #262629;
+padding-left: 20px;
+}
+
+/* image */
+.denji {
+width: 100%;
+padding: 20px;
+background-image:url('denji.jpg');
+background-repeat: no-repeat;
+}
+
+.butterfly {
+width: 100%;
+padding: 20px;
+background-image:url('butterfly.jpg');
+background-repeat: no-repeat;
+}
+
+.me {
+width: 100%;
+padding: 20px;
+background-image:url('me.jpg');
+background-repeat: no-repeat;
+}
+
+.idk {
+width: 100%;
+padding: 20px;
+background-image:url('idk.jpg');
+background-repeat: no-repeat;
+}
+
+.street {
+width: 100%;
+padding: 20px;
+background-image:url('street.jpg');
+background-repeat: no-repeat;
+}
+
+.card a {
+float: left;
+display: block;
+color: #f2f2f2;
+}
+
+/* Add a card effect for articles */
+.card {
+background-color: #3b3c40;
+padding: 20px;
+margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #262629;
+margin-top: 20px;
+color: white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+width: 100%;
+padding: 0;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>charamiel's art archive</h1>
+<p>My Personal Web Page on The Web</p>
+</div>
+
+<div class="topnav">
+<a href="https://open.spotify.com/user/31cm5orcam6jhsnefmhkwu5fzxmm?si=514c56f7488f46be">Spotify</a>
+<a href="https://www.instagram.com/charamiel/">Instagram</a>
+<a href="https://www.youtube.com/@charamiel">Youtube</a>
+<a href="My Personal Webpage.html" style="float:right">Home</a>
+</div>
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>Yummy</h2>
+<h5>November 02, 2023</h5>
+<div class="denji" style="height:800px;"></div>
+<p>I love ballpoint pens.</p>
+</div>
+<div class="card">
+<h2>Another Day</h2>
+<h5>August 28, 2023</h5>
+<div class="butterfly" style="height:600px;"></div>
+<p>Tried something new.</p>
+</div>
+</div>
+<div class="rightcolumn">
+<div class="card">
+<h2>About Me</h2>
+<div class="me" style="height:250px;"></div>
+<p>🧷 November 04</p>
+<p>I like drawing and listening to niche stuff.</p>
+</div>
+<div class="card">
+<h3>Popular Posts 📌</h3>
+<div class="street"><p><a href="https://www.instagram.com/p/C1cuEbKPGU9/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==">Latest Drawing</a></p></div>
+<div class="butterfly"><p><a href="https://www.instagram.com/p/CfoJPB-PNjb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Bayonetta</a></p></div>
+<div class="idk"><p><a href="https://www.instagram.com/p/Cxzqq7WPO1M/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Art Project</a></p></div>
+</div>
+<div class="card">
+<h3>Follow Me 🗑️</h3>
+<p><a href="https://open.spotify.com/user/31cm5orcam6jhsnefmhkwu5fzxmm?si=514c56f7488f46be">raggdyann</a>‎ on Spotify</p>
+<p><a href="https://www.instagram.com/charamiel/">@charamiel</a>‎ on Instagram</p>
+<p><a href="https://www.youtube.com/@charamiel">@charamiel</a>‎ on Youtube</p>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<h2>Ⓒ charamiel 2024</h2>
+</div>
+
+</body>
+</html>
+
+ 
